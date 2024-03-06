@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+body {
+    background-color: #8a8887;
+}
+
+.container {
+    /* margin: 20rem 20rem; */
+    font-size: 2rem;
+}
+.add {
+    margin: 0 30rem 0 12rem;
+    background-color: blue;
+    color: #f7e7e7;
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 1px;
+}
+.remove {
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.count {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 12rem;
+}
