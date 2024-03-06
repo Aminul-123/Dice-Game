@@ -1,7 +1,7 @@
 import React from 'react'
 import dice from "../0325_double-dice-game_PNG.png"
 
-function Start() {
+function Start({playDice}) {
   return (
     <div>
 
@@ -16,15 +16,16 @@ function Start() {
         ml-16 mt-8
         md:text-[5rem] md:mb-8
         
-        '>DICE GAME</h1>
+        ' >DICE GAME</h1>
 
 
 
         <button className=' w-[7rem] h-[2rem]
         bg-pink-400 ml-[30%] mt-6 text-black
-        md:w-[9rem] md:h-[2.5rem] md:text-xl
+        md:w-[9rem] md:h-[2.5rem] md:text-xl  hover:bg-white hover:border hover:border-black 
+        transparent transition ease-in-out delay-150
         
-        '>START NOW</button>
+        ' onClick= {playDice}>START NOW</button>
     </div>
     </div>
   )
