@@ -7,9 +7,9 @@ function Score() {
     md:ml-[4rem]
     
     ' >
-    <h1 className='font-bold
+    <h1 className='font-bold sans-serif
     md:text-[1.7rem]
-    '>Total Score</h1>
+    '  >Total Score</h1>
     <h1 className='text-8xl mt-[-15px] ml-[15px]'>0</h1>
     </div>
 
